@@ -43,7 +43,7 @@ export default function Home() {
 
       {
         arr.map((el, index) => {
-          return <div>
+          return <div key={index}>
 
             <div>{el.prompt}</div>
             <div>{el.result}</div>
